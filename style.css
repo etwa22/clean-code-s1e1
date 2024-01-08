@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.header .header-info {
+.header-info {
   font-family: fantasy, cursive;
 }
 
@@ -150,17 +150,17 @@ button.delete img:hover {
 }
 
 /* Completed */
-.completed-task {
+.completed label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
